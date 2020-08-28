@@ -1,7 +1,7 @@
 # service-migration
 How to install go newest version in Ubuntu 18.04 
 1. Firstly, need to download go version to your local host
- $ curl -O https://storage.googleapis.com/golang/go1.15.linux-amd64.tar.gz
+ '''$ curl -O https://storage.googleapis.com/golang/go1.15.linux-amd64.tar.gz'''
 2. Tar file and move go file to /usr/local
  $ tar -xvf go1.15.linux-amd64.tar.gz
  $ sudo mv go /usr/local
