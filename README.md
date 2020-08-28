@@ -32,7 +32,7 @@
  ```
  - If go version is old one, which mean that the go command is link to old version (bin go), we need to remove the symlink
  ```
- sudo unlink go
+ $ sudo unlink go
  ```
  - After unlink go, we can't run go command (e.g ```$ go version```), we need to link go to the new version
  - The go folder that we tar from downloaded file is moved to ```/usr/local/go``` at Step 2
